@@ -1,0 +1,46 @@
+* {
+	padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:15px;
+	
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+.insta-share {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    background-color: red;
+    height: 50vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+.share-tray {
+    position: absolute;
+    bottom: -100%;
+	width: 100%;
+	background-color: blue;
+	transition: all 0.3s ease;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.active{
+	bottom: 0;
+}
+a{
+	cursor: pointer;
+}
+
