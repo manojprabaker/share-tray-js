@@ -1,3 +1,4 @@
+
 let shareBtn=document.getElementById("share");
 let instaPost=document.getElementById("insta-post");
 let clsBtn=document.getElementById("cls-btn");
